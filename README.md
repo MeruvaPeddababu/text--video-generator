@@ -12,23 +12,12 @@ This project provides a Gradio interface to generate AI-powered videos using Cog
 📦 Installation
 Clone the Repository
 
-bash
-Copy
-Edit
-git clone https://github.com/your-username/ai-video-generation.git
-cd ai-video-generation
+# Kaggle Notebook
 Create a Virtual Environment (Optional but Recommended)
 
-bash
-Copy
-Edit
-python -m venv venv
-source venv/bin/activate  # On Windows: venv\Scripts\activate
+
 Install Dependencies
 
-bash
-Copy
-Edit
 pip install torch diffusers gradio
 Download the Pretrained Models
 The script will automatically download the required models (THUDM/CogVideoX-2b, emilianJR/epiCRealism) the first time you run it.
@@ -36,13 +25,11 @@ The script will automatically download the required models (THUDM/CogVideoX-2b, 
 🛠️ Usage
 Run the Gradio app:
 
-bash
-Copy
-Edit
+
 python app.py
 Then, open the Gradio UI in your browser and enter a text prompt to generate AI videos.
 
-📜 Code Overview
+
 app.py → Main script that runs the Gradio interface.
 requirements.txt → List of required dependencies.
 README.md → Documentation (this file).
