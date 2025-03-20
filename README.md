@@ -17,6 +17,7 @@ Create a Virtual Environment (Optional but Recommended)
 
 
 Install Dependencies
+pip install -r requirements.txt
 
 pip install torch diffusers gradio
 Download the Pretrained Models
